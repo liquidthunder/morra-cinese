@@ -30,5 +30,6 @@ public class MorraCinese {
 	    } else {
 	    	System.out.println("Il numero delle partite DEVE essere dispari. Uscita");
 	    }
+	    inputScelta.close();
     }
 }
