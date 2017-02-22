@@ -10,7 +10,7 @@ public class MorraCinese {
         Scanner inputScelta = new Scanner(System.in);
         MorraGame partita = new MorraGame();
         System.out.println("###### MORRA CINESE ######");
-        System.out.println("Puoi decidere di disputare una o più partite (dispari) contro la CPU o di vedere il risultato della sfida tra due CPU.");
+        System.out.println("Puoi decidere di disputare una o più partite (dispari). Contro la CPU o di vedere il risultato della sfida tra due CPU.");
         System.out.println("Quante partite vuoi eseguire?\nScelta: ");
         times = inputScelta.nextInt();
 	    if (!((times%2) == 0)) {
