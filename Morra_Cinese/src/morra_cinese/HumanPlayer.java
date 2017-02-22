@@ -9,7 +9,7 @@ public class HumanPlayer implements MorraPlayer {
     }
 
     public String play() {
-        System.out.println("Scegli 1, 2, or 3 per Sasso, Carta o Forbici.\nInput: ");
+        System.out.println("Scegli 1, 2, o 3 per Sasso, Carta o Forbici.\nInput: ");
         int scelta = this.scanner.nextInt();
         return Scelte[scelta - 1];
     }
